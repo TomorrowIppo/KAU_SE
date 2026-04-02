@@ -12,8 +12,7 @@
 .
 ├── README.md             # 프로젝트 메인 설명 및 과제 위치 명시
 ├── doc/                  # 과제 관련 문서 (PDF, Markdown 등)
-│   ├── ch02_품질요소_정의서.md
-│   └── [추후 추가될 설계 문서들]
+│   ├── project_definition.md
+│   └── quality_definition.md
 └── src/                  # 소스 코드 및 관련 파일
-    ├── [과제 구현 코드]
     └── build_guide.txt   # 빌드 방법 명시 (추후 작성)
