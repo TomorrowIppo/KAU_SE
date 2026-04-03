@@ -12,7 +12,7 @@
 ├── README.md                 # 프로젝트 메인 설명 및 과제 위치 명시
 ├── doc/                      # 과제 관련 문서 (품질/프로젝트 정의서)
 │   ├── Project_Definition.md # 재난 대비 P2P 드론 네트워크 정의서
-│   ├── Quality_Definition.md # 신뢰성 및 가용성 중심 품질 정의서
-│   └── build_guide.md        # Python 3.13.3 기반 빌드 가이드
+│   └── Quality_Definition.md # 신뢰성 및 가용성 중심 품질 정의서
 └── src/                      # 소스 코드 및 관련 파일
+    ├── build_guide.md        # Python 3.13.3 기반 빌드 가이드
     └── main.py               # 드론 노드 인터페이스 설계 (Python)
