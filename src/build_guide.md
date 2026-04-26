@@ -1,17 +1,12 @@
-# 🛠 재난 대비 드론 P2P 메쉬망 빌드 및 실행 가이드
+# Build Guide: Mini Drive (v1.0)
 
-본 문서는 드론 간 통신 프로토콜과 네트워크 구성 시뮬레이션을 실행하기 위한 가이드입니다.
+본 가이드는 '클라우드 파일 공유 시스템(미니 드라이브)'의 초기 프로토타입 실행 및 개발 환경 구축 방법을 안내합니다.
 
-## 1. 개발 환경 (Development Environment)
-* **Python Version**: 3.13.3
-* **External Libraries**: 현재 없음 (향후 가상 노드 통신을 위한 Socket/Asyncio 활용 예정)
-* **Target Platforms**: Linux 기반 드론 임베디드 보드 및 시뮬레이션용 PC
+## 1. 개발 환경 요구사항 (System Requirements)
+요구사항 정의서에 명시된 스펙을 준수합니다.
 
-## 2. 코드 구조 및 설계 의도
-* **`src/main.py`**: 드론 노드의 핵심 로직 인터페이스. P2P 검색, 패킷 릴레이, 배터리 상태 체크 기능을 포함하는 구조로 설계되었습니다.
-* 재난 상황의 **신뢰성**을 위해 각 함수에는 예외 발생 시 인접 노드로 제어권을 넘기는 방어적 설계가 적용될 예정입니다.
-
-## 3. 실행 방법 (How to Run)
-1. **소스 디렉토리 이동**
-   ```bash
-   cd src
+- **언어**: Python 3.10 이상 (추천: 3.13.x)
+- **운영체제**: Windows 10/11, macOS, 또는 Linux
+- **필수 도구**: 
+  - IDE: IntelliJ IDEA (Python Plugin) 또는 VS Code
+  - 버전 관리: Git (GitHub 리포지토리 연동)
