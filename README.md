@@ -14,7 +14,8 @@
 │   ├── project_definition.md # 프로젝트 정의서
 │   ├── quality_definition.md # 신뢰성 및 가용성 중심 품질 
 │   ├── project_management_plan.md # 프로젝트 관리 계획서 
-│   └── requirements_definition.md # 요구사항 정의서 정의서
+│   ├── requirements_analysis # 요구사항 분석서
+│   └── requirements_definition.md # 요구사항 정의서 
 └── src/                      # 소스 코드 및 관련 파일
     ├── build_guide.md        # Python 3.13.3 기반 빌드 가이드
     └── main.py               # 인터페이스 설계 (Python)
